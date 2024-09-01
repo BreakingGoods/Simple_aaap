@@ -46,7 +46,6 @@ class _LatestRateState extends State<LatestRate> {
               );
             }
 
-            // แสดงรายการอัตราแลกเปลี่ยนสกุลเงิน
             return ListView.builder(
               itemCount: snapshot.data?.result?.length ?? 0,
               itemBuilder: (BuildContext context, int index) {
